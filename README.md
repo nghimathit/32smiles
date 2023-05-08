@@ -15,11 +15,11 @@ Student1455759 Võ Xuân Thịnh
 
 ============================
 
-eProject documentation at https://github.com/cuoilen007/test/tree/main/document
+eProject documentation at https://github.com/nghimathit/32smiles/tree/main/document
 
 ============================
 
-eProject published at https://lnnhi1310.github.io/Kitchen-Appliances/index.html
+eProject published at https://github.com/nghimathit/32smiles/blob/main/index.html
 
 ============================
 
