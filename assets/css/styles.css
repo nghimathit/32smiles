@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.header{
+    min-height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding-top: 30px;
+}
+.content{
+    width: 1170px;
+    max-width: calc(100%-48px); /* để co trình duyệt nhỏ hơn 1170px nó sẽ tự cách 2 bên lề 24px */
+    margin: 0 auto; /*canh giua*/
+}
+.hinh img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.chu{
+    font-size:7rem ;
+    margin-left: 0.1rem;
+    font-weight: 400;
+    color: aliceblue;
+    font-family: cursive;
+    display: inline-block;
+    margin-bottom: 5.4rem;
+    
+}
+.header-top{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.navbar-list{ 
+    display: flex;
+  
+}
+.action-btn,
+.navbar-link{
+    color: aliceblue;
+    font-size: 1.6;
+    font-weight: 300;
+    padding: 4px 30px;
+    text-decoration: none;
+}
+.navbar-link:hover{
+    text-shadow: 1px 0 0 currentColor;
+}
+.btn{
+    display: inline-block;
+    min-width: 205px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 99px;
+    line-height: 52px;
+    color: aliceblue;
+    background: #2e80ce;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.action-btn{
+    display: inline-block;
+    min-width: 90px;
+    height: 45px;
+    padding: 0 40px;
+    border-radius: 99px;
+    text-align: center;
+    line-height: 45px;
+    color: aliceblue;
+    background: #2e80ce;
+    font-weight: 400;
+}
+.action{
+    margin-left: 9px;
+}
+.action-btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    text-shadow: 1px 0 0 currentColor;
+}
