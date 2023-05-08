@@ -19,7 +19,7 @@ eProject documentation at https://github.com/nghimathit/32smiles/tree/main/docum
 
 ============================
 
-eProject published at https://github.com/nghimathit/32smiles/blob/main/index.html
+eProject published at https://nghimathit.github.io/32smiles/
 
 ============================
 
