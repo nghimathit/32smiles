@@ -86,3 +86,62 @@ body{
     cursor: pointer;
     text-shadow: 1px 0 0 currentColor;
 }
+.hero{
+    display: flex;
+    margin-top: 76px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero__content{
+    width: 44%;
+
+}
+.hero__media{
+    flex-grow: 1;
+}
+.hero__heading{
+    font-weight: 600;
+    font-size: 7rem;
+    line-height: 1.14;
+    letter-spacing: -0.02rem;
+    color: aliceblue;
+}
+.hero__desc{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: aliceblue;
+    margin-top: 22px;
+}
+.hero__row{
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+.hero__phone{
+    margin-left: 39px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    text-align: center;
+    color: aliceblue;
+
+}
+.hero__images{
+    display:flex ;
+    align-items: center;
+}
+.hero__img{
+    width: 330px;
+    height: 540px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.hero__img:last-child{
+    width: 210px;
+    height: 470px;
+}
+.hero__img:first-child{
+    position: relative;
+    margin-right: -6px;
+}
