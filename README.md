@@ -9,8 +9,11 @@ Project title: 32smiles
 
 4 collaborators:
 Student1455770 Nguyễn Văn Nghị
+
 Student1455774 Đặng Minh Triết
+
 Student1455773 Hồ Thiện Nhân
+
 Student1455759 Võ Xuân Thịnh
 
 ============================
