@@ -1,0 +1,33 @@
+.cart{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart table{
+    width: 100%;
+
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+.cart table tr td{
+    border-bottom: 2px solid #000;
+    padding: 12px 0;
+}
+.cart table thead tr th:last-child{
+    text-align: right;
+}
+.cart table tbody tr td:last-child{
+    text-align: right;
+}
+i.fas.fa-cart-plus:active{
+    color: black;
+}
+i.far.fa-eye:active{
+    color: black;
+}
+i.far.fa-heart:active{
+    color: black;
+}
+
