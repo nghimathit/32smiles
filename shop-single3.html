@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="https://cdn.leanhduc.pro.vn/utilities/animation/shake-effect/style.css"/>
+    <link rel="stylesheet" href="/assets/css/login.css">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
@@ -91,9 +92,9 @@
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none" href="cart.html">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">99</span>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"><span id="item-count"></span></span>
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
@@ -101,13 +102,34 @@
                     </a>
                 </div>
                 <div style="margin-left: 170px;">
-                     <div style="display: inline-block;">
-                        <a href="#!" style="text-decoration: none; font-weight: 200;">Log In</a>
-                     </div>
-                     <div style="display: inline-block; margin-left: 20px;">
-                        <a href="#!" style="text-decoration: none;">Sign Up</a>
-                     </div>
-                </div>
+                    <div style="display: inline-block;">
+                       <a href="#" style="text-decoration: none; font-weight: 200;" id="loginLink">Log In</a>
+                       <div class="overlay"></div>
+<div class="popup">
+ <div class="form-structor">
+   <div class="signup">
+     <h2 class="form-title" id="signupTitle"><span>or</span>Sign up</h2>
+     <div class="form-holder">
+       <input type="text" class="input" placeholder="Name" name="name" id="nameInput" />
+       <input type="email" class="input" placeholder="Email" name="email" id="emailInput" />
+       <input type="password" class="input" placeholder="Password" name="password" id="passwordInput" />
+     </div>
+     <button class="submit-btn" id="signupButton">Sign up</button>
+   </div>
+   <div class="login slide-up">
+     <div class="center">
+       <h2 class="form-title" id="loginTitle"><span>or</span>Log in</h2>
+       <div class="form-holder">
+         <input type="email" class="input" placeholder="Email" id="loginEmailInput" />
+         <input type="password" class="input" placeholder="Password" id="loginPasswordInput" />
+       </div>
+       <button class="submit-btn" id="loginButton">Log in</button>
+     </div>
+   </div>
+ </div>
+</div>
+                    </div>
+               </div>
             </div>
 
         </div>
@@ -901,6 +923,9 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/login.js"></script>
+    <script src="/assets/js/cart.js"></script>
+    <script src="/assets/js/cartcount.js"></script>
     <!-- End Script -->
 
     <!-- Start Slider Script -->
