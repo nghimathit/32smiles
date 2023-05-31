@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       existingCartItems.forEach(function(item) {
         var tr = document.createElement("tr");
-        tr.innerHTML = '<td style="display: flex; align-items: center;"><img style="width: 100px; height: 100px;" src="' + item.img + '" alt=""><span class="title">' + item.name + '</span></td><td><p><span class="prices">' + item.price + '</span></p></td><td><input style="width: 50px; outline: none;" type="number" value="1" min="1"></td><td style="cursor: pointer;"><span class="delete">Xóa</span></td>';
+        tr.innerHTML = '<td style="display: flex; align-items: center;"><img style="width: 100px; height: 100px;" src="' + item.img + '" alt=""><span class="title">' + item.name + '</span></td><td><p><span class="prices">' + item.price + '</span></p></td><td><input style="width: 50px; outline: none;" type="number" value="1" min="1"></td><td style="cursor: pointer;"><span class="delete">Delete</span></td>';
         cartTable.appendChild(tr);
       });
       
