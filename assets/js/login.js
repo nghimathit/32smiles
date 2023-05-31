@@ -77,12 +77,12 @@ function signUp() {
 	document.getElementById('emailInput').value = '';
 	document.getElementById('passwordInput').value = '';
 
-	alert('Đăng ký thành công! Vui lòng đăng nhập.');
+	alert('Sign Up Success! Please log in.');
 
 	// Hiển thị form đăng nhập
 	showLoginForm();
   } else {
-	alert('Vui lòng nhập đầy đủ thông tin.');
+	alert('Please enter full information.');
   }
 }
 
@@ -100,13 +100,13 @@ function logIn() {
 
 	// Kiểm tra xem thông tin đăng nhập có chính xác hay không
 	if (user && user.email === email && user.password === password) {
-	  alert('Đăng nhập thành công!');
+	  alert('Logged in successfully!');
 	  closePopup();
 	  // Thực hiện các hành động sau khi đăng nhập thành công
 	} else {
-	  alert('Email hoặc mật khẩu không chính xác.');
+	  alert('Email or password is incorrect.');
 	}
   } else {
-	alert('Vui lòng nhập đầy đủ thông tin.');
+	alert('Please enter full information.');
   }
 }
