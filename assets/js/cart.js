@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     var buttonT = document.getElementById("thongbaothanhtoan");
     buttonT.onclick = function() {
-      alert("Thanh toán thành công");
+      alert("Payment success");
     };
     
     // Load danh sách sản phẩm từ local storage khi trang được tải
