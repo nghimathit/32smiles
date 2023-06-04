@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
   
         if (isDuplicate) {
-          alert("Sản phẩm đã có trong giỏ hàng. Vui lòng chọn sản phẩm khác.");
+          alert("Products already in the cart. Please choose another product.");
           return;
         }
   
         existingCartItems.push(cartItem);
         localStorage.setItem("cartItems", JSON.stringify(existingCartItems));
-        alert("Sản phẩm đã được thêm vào giỏ hàng.");
+        alert("The product has been added to cart.");
         loadCartItems();
       });
     });
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
     buttonT.onclick = function() {
       alert("Thanh toán thành công");
     };
-  
+    
     // Load danh sách sản phẩm từ local storage khi trang được tải
     loadCartItems();
     
