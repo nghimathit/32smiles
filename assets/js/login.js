@@ -85,6 +85,7 @@ function signUp() {
       alert('Email already exists. Please choose a different email.');
       return;
     }
+<<<<<<< HEAD
 
     // Thêm người dùng mới vào danh sách
     users.push(newUser);
@@ -99,6 +100,22 @@ function signUp() {
 
     alert('Sign Up Success! Please log in.');
 
+=======
+
+    // Thêm người dùng mới vào danh sách
+    users.push(newUser);
+
+    // Lưu danh sách người dùng vào local storage
+    localStorage.setItem('users', JSON.stringify(users));
+
+    // Xoá các input sau khi đăng ký thành công
+    document.getElementById('nameInput').value = '';
+    document.getElementById('emailInput').value = '';
+    document.getElementById('passwordInput').value = '';
+
+    alert('Sign Up Success! Please log in.');
+
+>>>>>>> e3118661f3ec680056ead4e46312e2a90c1dd4c8
     // Hiển thị form đăng nhập
     showLoginForm();
   } else {
