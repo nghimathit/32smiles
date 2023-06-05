@@ -8,6 +8,7 @@ Project title: 32smiles
 ========> Group 05 <=========
 
 4 collaborators:
+
 Student1455770 Nguyễn Văn Nghị
 
 Student1455774 Đặng Minh Triết
